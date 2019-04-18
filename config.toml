@@ -1,3 +1,26 @@
-baseURL = "http://example.org/"
+baseURL = "https://speedometer.marcelkraus.de/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "“Speedometer – How Fast Am I?” – a free Speedometer app for your iPhone, available on the App Store"
+theme = "hugo-lodi-theme"
+
+[params]
+    description = "“Speedometer – How Fast Am I?” is an ad-free and cost-free speedometer app for your iPhone."
+    description_photo = "app-icon.png"
+    favicon = "app-icon.png"
+
+[params.hero]
+    enable = true
+    avatar = "app-icon.png"
+    badge = "app-store-badge.png"
+    campaign_link = "https://itunes.apple.com/app/apple-store/id1361655713?pt=118900544&ct=promotional-homepage-en&mt=8"
+    subtitle = "A free Speedometer app for your iPhone, available on the App Store."
+    hero_right = ["**“Speedometer – How Fast Am I?” is a plain and simple app I wrote as a “playground” project to go through the whole lifecyle of an app: build, release, run, repeat.**", "At some point during the development process, I thought: “I should release this for free“. There were not that much plain simple (and cost-free) speedometer apps available at that time, so now there is one.", "In a nutshell, “Speedometer – How Fast Am I?” shows your current speed in different units (mph, km/h, m/s and kn). Additionally, your current position on the globe is displayed by using the geographic coordinate system.","**Privacy Policy**", "Apple asks it's mobile developers to provide a privacy policy for their apps, so this is mine:", "> I, Marcel Kraus, built the “Speedometer – How Fast Am I?” app as a free app. This app is provided by me at no cost and is intended for use as is.", ">", "> I decided to not collect any of your personal data. I did not implement any 3rd party analytics tools and only use the tools provided by Apple. You can opt out from this tools at any time by updating your preferences in the Settings app.", "The whole source code is available at [GitHub](https://github.com/marcelkraus/speedometer). Please feel free to collaborate!", "**Imprint & Data Privacy**", "This is a project of Marcel Kraus, Dreikönigenweg 8a, 50374 Erftstadt, Germany. Please see [my personal homepage](https://www.marcelkraus.de) for more contact details.", "I don’t use tracking codes or cookies on this page, so the data privacy statement is real simple: I am not interested in any of your personal data, so I will not collect any of your personal data."]
+
+[params.nav]
+    enable = false
+[params.process]
+    enable = false
+[params.case_studies]
+    enable = false
+[params.footer]
+    enable = false
