@@ -1,9 +1,9 @@
 <section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
     <div class="hero">
         <div class="hero-left">
-            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 50%; border-radius: 10%; ">
+            <img src="{{ .Site.BaseURL }}/img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 50%; border-radius: 10%; ">
             <h2 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
-            <p><a href="{{ .Site.Params.Hero.campaign_link }}"><img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.badge }}" /></a></p>
+            <p><a href="{{ .Site.Params.Hero.campaign_link }}"><img src="{{ .Site.BaseURL }}/img/{{ .Site.Params.Hero.badge }}" /></a></p>
             <div class="icons">
                 {{ if isset .Site.Params "email" }}
                 <a href="mailto:{{ .Site.Params.Email }}">
@@ -103,7 +103,7 @@
                 {{ if isset .Site.Params "medium" }}
                 <a href="https://medium.com/@{{ .Site.Params.Medium }}" target="blank">
                     <!--?xml version="1.0" encoding="UTF-8"?-->
-                    <img src="{{ .Site.BaseURL }}img/medium.png" style="width: 16px;" alt="">
+                    <img src="{{ .Site.BaseURL }}/img/medium.png" style="width: 16px;" alt="">
                 </a>
                 {{ end }}
                 {{ if isset .Site.Params "github" }}
